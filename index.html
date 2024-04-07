@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intel Corporation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="hero">
+        <header>
+            <nav>
+                <ul id="nav__list">
+                    <div id="nav__logo">
+                        <li>
+                            <a href="https://www.intel.com/" id="nav__title">Intel</a>
+                        </li>
+                    </div>
+                    <div id="nav__links">
+                        <li>
+                            <a href="#specs" class="btn nav__btn">Specifications</a>
+                        </li>
+                        <li>
+                            <a href="#reviews" class="btn nav__btn">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#shop" class="btn nav__btn">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#partners" class="btn nav__btn">Partners</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <div class="showreel-container">
+            <h1 id="slogan">Enter a new realm of gaming</h1>
+            <video src="videos/showreel.mp4" id="showreel" autoplay muted loop></video>
+            <div class="showreel__sound-container">
+                <img id="showreel__sound-btn" src="svg/sound-off.svg" alt="Sound button">
+            </div>
+        </div>
+    </section>
+    <section id="specs">
+        <div class="specs__header">
+            <div class="section__column section__column--left">
+                <h4 class="specs__subtitle">Specifications</h4>
+                <h2 class="specs__title">World's fastest experience</h2>
+                <a href="https://www.intel.com/content/www/us/en/products/docs/processors/core/13th-gen-core-desktop-brief.html" class="btn learn-more-btn">Learn more</a>
+            </div>
+            <div class="section__column section__column--right">
+                <img src="images/processor-render.png" alt="Intel processor" class="processor-render">
+            </div>
+        </div>
+        <div class="specs__list">
+            <div class="specs__list__item specs__core">
+                <h6 class="specs__secondary">Up to</h6>
+                <h2 class="specs__primary">24</h2>
+                <h6 class="specs__secondary">Cores</h6>
+            </div>
+            <div class="specs__list__item specs__fps">
+                <h6 class="specs__secondary">Up to</h6>
+                <h2 class="specs__primary">23%</h2>
+                <h6 class="specs__secondary">More fps</h6>
+            </div>
+            <div class="specs__list__item specs__speed">
+                <h6 class="specs__secondary">Up to</h6>
+                <h2 class="specs__primary">54%</h2>
+                <h6 class="specs__secondary">Faster</h6>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="reviews__header">
+            <h4 class="reviews__subtitle">Reviews</h4>
+            <h2 class="reviews__title">What our community thinks</h2>
+        </div>
+        <div class="reviews__list">
+            <div class="reviews__list__item">
+                <div class="review__image-container">
+                    <img class="review__image" src="images/joan-cortez.jpg" alt="">
+                </div>
+                <div class="review__card">
+                    <div class="review__card__info">
+                        <h3 class="review__name">Joan Cortez</h3>
+                        <p class="review__paragraph">“Rendering my 3d models and editing videos had never been so fast before. I can even do both now.”</p>
+                    </div>
+                    <div class="review__rating">
+
+                    </div>    
+                </div>
+            </div>
+            <div class="reviews__list__item">
+            </div>
+            <div class="reviews__list__item">
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

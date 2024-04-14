@@ -36,7 +36,7 @@ h3 {
 h4 {
     font-size: 30px;
     font-weight: 400;
-    color: #00AEAE;
+    color: #0afbfb;
 }
 
 p {
@@ -175,7 +175,7 @@ header {
 .section-btn {
     display: inline-block;
     padding: 12px 79px;
-    border: 3px solid #00AEAE;
+    border: 3px solid #07e5e5;
     border-radius: 36px;
 }
 

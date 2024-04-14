@@ -228,6 +228,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .review__image-container {
@@ -236,24 +237,51 @@ header {
     border-radius: 100%;
     overflow: hidden;
     place-content: center;
-    position: relative;
-    top: calc(221px/2);
+    position: absolute;
+    z-index: 1;
 }
 
 .review__image {
     position: relative;
+    width: 345px;
+}
+
+.review__image--first {
     width: 285px;
     top: 50px;
     right: 25px;
 }
 
+.review__image--second { 
+    right: 70px;
+}
+
+.review__image--third {
+    top: 50px;
+    right: 50px;
+}
+
 .review__card {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background: #091C5F30;
     padding: calc(225px/2) 23px 23px 23px;
     border-radius: 40px;
+    height: 460px;
+    margin-top: calc(221px/2);
 }
 
 .review__name {
     color: #27F2FF;
     margin-bottom: 15px;
+}
+
+.review__rating {
+    background-image: url("svg/review-star.svg");
+    width: 200px;
+    height: 34px;
 }

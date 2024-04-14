@@ -1,4 +1,4 @@
-/* General styles */
+/* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
@@ -106,7 +106,7 @@ header {
     text-transform: capitalize;
 }
 
-/* Hero */
+/* Hero Section */
 #hero {
     margin-top: 0;
     height: 100dvh;
@@ -153,7 +153,7 @@ header {
     margin: 10px;
 }
 
-/* Specifications */
+/* Specifications Section */
 .specs__header {
     display: flex;
     justify-content: space-between;
@@ -170,7 +170,7 @@ header {
     width: 435px;
 }
 
-.learn-more-btn {
+.section-btn {
     display: inline-block;
     padding: 12px 79px;
     border: 3px solid #00AEAE;
@@ -204,7 +204,7 @@ header {
     font-weight: 300;
 }
 
-/* Reviews */
+/* Reviews Section */
 
 .reviews__header {
     display: flex;
@@ -284,4 +284,21 @@ header {
     background-image: url("svg/review-star.svg");
     width: 200px;
     height: 34px;
+}
+
+/* Shop Section */
+#shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.shop__title {
+    width: 14ch;
+    margin-bottom: 41px;
+}
+
+.processor-box {
+    width: 435px;
 }

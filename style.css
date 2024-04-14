@@ -160,9 +160,9 @@ header {
     align-items: center;
 }
 
-.specs__title { /* fix margin-bottom with the button */
+.specs__title {
     width: 14ch;
-    margin-bottom: 43px;
+    margin-bottom: 41px;
 }
 
 .processor-render {

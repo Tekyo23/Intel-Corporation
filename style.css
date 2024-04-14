@@ -82,9 +82,10 @@ section {
 /* Header */
 header {
     max-width: 1065px;
+    margin-top: 26px;
 }
 
-#nav__list { /* fix margin-top */
+#nav__list { 
     display: flex;
     justify-content: space-between;
     align-items: center;

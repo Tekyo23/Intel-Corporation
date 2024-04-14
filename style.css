@@ -302,3 +302,44 @@ header {
 .processor-box {
     width: 435px;
 }
+
+/* Partners Section */
+#partners {
+    display: flex;
+    flex-direction: column;
+}
+
+.partners__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners__title {
+    text-align: center;
+}
+
+.partners__list {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 204px;
+    width: 100%;
+    margin-top: 41px;
+    padding: 23px;
+    border-radius: 40px;
+    background: #091C5F30;
+}
+
+.partners__list__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.partners__list__item {
+    opacity: 70%;
+    aspect-ratio: 1;
+    width: 64px;
+}

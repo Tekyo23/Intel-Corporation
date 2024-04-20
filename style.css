@@ -250,7 +250,7 @@ header {
 
 .review__image--first {
     width: 285px;
-    top: 50px;
+    top: -50px;
     right: 25px;
 }
 
@@ -259,7 +259,7 @@ header {
 }
 
 .review__image--third {
-    top: 50px;
+    top: -90px;
     right: 50px;
 }
 

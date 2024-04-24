@@ -296,9 +296,14 @@ header {
 }
 
 
-.shop__title {
+.shop__title,
+.shop__title--responsive {
     width: 14ch;
     margin-bottom: 41px;
+}
+
+.shop__title--responsive {
+    display: none;
 }
 
 .processor-box {
@@ -387,4 +392,91 @@ footer {
     font-weight: 300;
     text-transform:uppercase;
     line-height: 98.4%;
+}
+
+/* Responsive design (1128px) */
+@media screen and (max-width: 1128px) {
+    /* General Styles */
+    section {
+        max-width: 774px;
+    }
+
+    /* Specifications Section */
+    .specs__title {
+        width: 458px;
+    }
+
+    .processor-render {
+        width: 316px;
+        height: 434px;
+        object-fit: cover;
+    }
+
+    .section-btn {
+        padding-inline: 29px;
+    }
+
+    .specs__list {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(3, 248px);
+    }
+
+    .specs__list__item {
+        padding-inline: 29px;
+    }
+
+    .specs__primary {
+        font-size: 100px;
+    }
+
+    .specs__secondary {
+        font-size: 40px;
+        white-space: nowrap;
+    }
+
+    /* Reviews Section */
+    .reviews__list {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    .reviews__list__item {
+        width: 345px;
+    }
+
+    .reviews__list__item:last-child {
+        margin-top: calc(45px - 15px);
+    }
+
+    /* Shop Section */
+    .shop__title {
+        display: none;
+    }
+
+    .shop__title--responsive {
+        display: inline-block;
+        width: 340px;
+    }
+
+    .processor-box {
+        width: 313px;
+        height: 435px;
+        object-fit: cover;
+    }
+    
+    /* Partners Section */
+    .partners__list {
+        height: 176px;
+    }
+
+    .partners__list__item {
+        width: 50px;
+    }
+
+    /* Footer Section */
+    .footer__content {
+        width: 774px;
+    }
 }

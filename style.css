@@ -514,6 +514,21 @@ footer {
         width: 50px;
     }
 
+    @keyframes scrollLeft {
+        to {
+            left: -50px;
+        }
+    }
+    
+    @keyframes scrollRight {
+        from {
+            left: -50px;
+        }
+        to {
+            left: 100%;
+        }
+    }
+
     /* Footer Section */
     .footer__content {
         width: 774px;

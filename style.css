@@ -514,31 +514,6 @@ footer {
         width: 50px;
     }
 
-    .partners__list--upper .partners__list__item {
-        animation: scrollLeft calc(25s * 0.73) linear infinite;
-        animation-delay: calc(calc(25s * 0.73) / 10 * (10 - var(--n)) * -1);
-    }
-    
-    .partners__list--lower .partners__list__item {
-        animation: scrollRight calc(25s * 0.73) linear infinite;
-        animation-delay: calc(calc(25s * 0.73) / 10 * (10 - var(--n)) * -1);
-    }
-
-    @keyframes scrollLeft {
-        to {
-            left: -50px;
-        }
-    }
-    
-    @keyframes scrollRight {
-        from {
-            left: -50px;
-        }
-        to {
-            left: 100%;
-        }
-    }
-
     /* Footer Section */
     .footer__content {
         width: 774px;

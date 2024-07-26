@@ -510,10 +510,6 @@ footer {
     }
     
     /* Partners Section */
-    .partners__container {
-        height: 176px;
-    }
-
     .partners__list__item {
         width: 50px;
     }
